@@ -1,0 +1,30 @@
+header {
+  margin-top: 0px;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+h1 {
+  background-color: red;
+  font-size: 30px;
+  width: 200px;
+  height: 80px;
+}
+
+@keyframes news {
+  0% {
+    transform: translatex(0);
+  }
+  50% {
+    transform: translatex(100px);
+  }
+  100% {
+    transform: translatex(0);
+  }
+}
+header span {
+  animation: news 5s ease-in-out infinite;
+}

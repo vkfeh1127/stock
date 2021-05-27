@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="KR">
 
 <head>
-     <link rel="stylesheet" href="css/style.css" />
+     <link rel="stylesheet" href="style.css" />
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,40 @@
 </head>
 
 <body>
-
+     <header>
+          <h1>RED Whale</h1>
+          <span>뉴스,속보</span>
+     </header>
+     <main>
+          <section class="chart">
+               <div class="chart-kospi">
+                    <h2>KOSPI</h2>
+                    <canvas class="chart-bar"></canvas>
+                    <div class="chart-info">
+                         <span>상한가종목,하한가종목수</span>
+                         <span>신고가종목,신저가종목수</span>
+                    </div>
+               </div>
+               <div class="chart-kosdaq">
+                    <h2>KOSDAQ</h2>
+                    <canvas class="chart-bar"></canvas>
+                    <div class="chart-info">
+                         <span>상한가종목,하한가종목수</span>
+                         <span>신고가종목,신저가종목수</span>
+                    </div>
+               </div>
+          </section>
+          <section class="part">
+               <h2>CYCLE</h2>
+          </section>
+          <section class="part">
+               <h2>SECTOR</h2>
+          </section>
+          <section class="part">
+               <h2>THEME</h2>
+          </section>
+     </main>
 </body>
+<script src="https://kit.fontawesome.com/95ec581063.js" crossorigin="anonymous"></script>
 
 </html>

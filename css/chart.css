@@ -1,0 +1,13 @@
+.chart {
+  width: 90%;
+  justify-content: center;
+  display: flex;
+  border: 0px solid black;
+}
+.chart > div {
+  margin-right: 80px;
+}
+
+.chart-info {
+  margin: 20px;
+}
